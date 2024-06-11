@@ -259,8 +259,8 @@ components:
     build-dir: "%{ANDROID_KERNEL_DIR}"
     sources:
       - type: repo
-        url: https://github.com/xen-troops/android_kernel_manifest.git
-        rev: 0631eb20d34c8f367424e84bdb0670ef920beb11
+        url: https://github.com/iusyk/android_kernel_manifest.git
+        rev: fc44c00b0bd1cc85c3a7715c3e1b03be536287fd
         manifest: default.xml
         depth: 1
         groups: "%{XT_DOMA_SOURCE_GROUP}"
