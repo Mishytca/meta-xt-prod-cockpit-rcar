@@ -10,7 +10,7 @@ SRC_URI_append = " \
     file://boot-options.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
     file://r8a7795-h3ulcb-4x2g-kf-doma.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
     file://r8a77951-h3ulcb-4x2g-kf-domd.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
-    file://r8a77951-scmi.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
+    file://scmi/r8a77951-scmi.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
 "
 
 SRC_URI_scmi_append = " \
