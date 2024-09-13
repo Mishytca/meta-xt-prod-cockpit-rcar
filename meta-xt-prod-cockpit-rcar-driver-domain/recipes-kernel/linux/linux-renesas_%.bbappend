@@ -13,7 +13,7 @@ SRC_URI_append = " \
     file://scmi/r8a77951-scmi.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
 "
 
-SRC_URI_scmi_append = " \
+SRC_URI_append_scmi = " \
     file://0001-CR7_mfis_as_in_v5.10.41.patch \
     file://xt_pass_drv.cfg \
     file://scmi/defconfig \
