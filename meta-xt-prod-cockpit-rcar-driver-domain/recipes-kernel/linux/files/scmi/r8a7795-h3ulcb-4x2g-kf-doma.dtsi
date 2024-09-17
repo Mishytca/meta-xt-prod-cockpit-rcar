@@ -216,7 +216,7 @@
 		ehci1: usb@ee0a0100 {
 			compatible = "generic-ehci";
 			reg = <0 0xee0a0100 0 0x100>;
-			cmi_devid = <12>;
+			scmi_devid = <12>;
 			clocks = <&scmi_clock 4>;
 			resets = <&scmi_reset 11>;
 			power-domains = <&scmi_power 0>;
